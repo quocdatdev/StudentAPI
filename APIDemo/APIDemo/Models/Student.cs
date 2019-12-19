@@ -21,5 +21,7 @@ namespace APIDemo.Models
         public string Mail { get; set; }
         
         public string Phone { get; set; }
+        
+        //add comment in github
     }
 }
