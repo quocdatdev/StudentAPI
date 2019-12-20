@@ -66,7 +66,8 @@ namespace APIDemo.Controllers
             }
             catch (Exception ex)
             {
-                return Content(HttpStatusCode.BadRequest, ex);
+                return Content(HttpStatusCode.BadRequest, "Invalid Request");
+                throw ex;
             }
         }
 
