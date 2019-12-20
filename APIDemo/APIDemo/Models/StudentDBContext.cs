@@ -8,6 +8,6 @@ namespace APIDemo.Models
 {
     public class StudentDBContext : DbContext
     {
-        DbSet<Student> Students { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
