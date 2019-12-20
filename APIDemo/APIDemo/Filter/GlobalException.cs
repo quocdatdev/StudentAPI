@@ -19,7 +19,7 @@ namespace APIDemo.Filter
 
             if (context.Exception is MyException)
             {
-                HttpResponseMessage responseMessage = null;
+                HttpResponseMessage responseMessage ;
                 var rs = context.Exception.Message;
                 responseMessage = new HttpResponseMessage(HttpStatusCode.InternalServerError)
                 {
