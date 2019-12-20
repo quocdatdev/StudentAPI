@@ -45,7 +45,7 @@ namespace APIDemo.Controllers
             return Ok();
         }
 
-        [HttpGet, Route("update/{id}")]
+        [HttpPut, Route("update/{id}")]
         public IHttpActionResult UpdateStudent(int id, [FromBody]Student student)
         {
             try
