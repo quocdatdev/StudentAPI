@@ -28,17 +28,6 @@ namespace APIDemo.Filter
                 };
                 context.Response = responseMessage;
             }
-            //else if(context.Exception is MyException)
-            //{
-            //    HttpResponseMessage responseMessage;
-            //    var rs = context.Exception.Message;
-            //    responseMessage = new HttpResponseMessage(HttpStatusCode.BadRequest)
-            //    {
-            //        Content = new StringContent(rs),
-            //        ReasonPhrase = rs
-            //    };
-            //    context.Response = responseMessage;
-            //}
         }
     }
 }
